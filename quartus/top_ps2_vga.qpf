@@ -1,0 +1,6 @@
+QUARTUS_VERSION = "23.1"
+DATE = "17:39:33  September 18, 2026"
+
+# Revisions
+
+PROJECT_REVISION = "top_ps2_vga"
