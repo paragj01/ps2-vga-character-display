@@ -2,9 +2,9 @@
 
 A Verilog design for the **Terasic DE2-115** (Intel/Altera Cyclone IV E `EP4CE115F29C7`) that reads keystrokes from a **PS/2 keyboard** and draws them on a **640 × 480 VGA monitor**. The last key you press appears as a large character in the middle of the screen, and a row underneath keeps the last 16 keys. Shift and Caps Lock work, and three board LEDs show keyboard activity, frame errors, and Caps Lock state.
 
-> 📷 _Photo of the board and monitor coming soon._
+> 📷 ![PS/2 Keyboard and FPGA Setup](docs/images/setup.png)
 
-> 🎥 **Demo video:** _link coming soon_ 
+![Terasic DE2-115 FPGA Board](docs/images/fpga.png)
 
 ---
 
@@ -226,7 +226,9 @@ A pixel is lit when the matching font bit `pixels[4 − col]` is 1. Lit pixels a
 
 ---
 
-> 📷 _More photos coming soon._
+> 📷 ![Capital / Block letters](docs/images/capital.png)
+> ![Small letters](docs/images/small.png)
+> ![Symbols](docs/images/symbol.png)
 
 ---
 
